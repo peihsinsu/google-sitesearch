@@ -25,3 +25,14 @@ gs.search('question', function(err,res,body){
 });
 ```
 
+## About CX, Key, Site
+
+* Apply the key
+
+Apply the access key from: https://code.google.com/apis/console/
+
+* Apply the CX
+
+You can apply a new CX from: https://www.google.com/cse/all, or finding the site search bar source code to get it. Some other reference: https://developers.google.com/custom-search/v1/using_rest
+
+
