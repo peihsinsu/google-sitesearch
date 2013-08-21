@@ -1,0 +1,117 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.2.25
+3 info using node@v0.10.10
+4 verbose publish [ '.' ]
+5 verbose read json /Users/simonsu/project/google-drive/node_modules/google-sitesearch/package.json
+6 warn package.json google-sitesearch@0.0.1 No repository field.
+7 verbose cache add [ '.', null ]
+8 verbose cache add name=undefined spec="." args=[".",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: '.',
+9 verbose parsed url   path: '.',
+9 verbose parsed url   href: '.' }
+10 silly lockFile 3a52ce78- .
+11 verbose lock . /Users/simonsu/.npm/3a52ce78-.lock
+12 verbose read json package.json
+13 verbose tar pack [ '/var/folders/n3/4xxf8_pd5kl1qr4wjgt8p8600000gn/T/npm-99118/1376983201022-0.8765270456206053/tmp.tgz',
+13 verbose tar pack   '.' ]
+14 verbose tarball /var/folders/n3/4xxf8_pd5kl1qr4wjgt8p8600000gn/T/npm-99118/1376983201022-0.8765270456206053/tmp.tgz
+15 verbose folder .
+16 info prepublish google-sitesearch@0.0.1
+17 silly lockFile 3a52ce78- .
+18 verbose lock . /Users/simonsu/.npm/3a52ce78-.lock
+19 silly lockFile 388a8440-01022-0-8765270456206053-tmp-tgz /var/folders/n3/4xxf8_pd5kl1qr4wjgt8p8600000gn/T/npm-99118/1376983201022-0.8765270456206053/tmp.tgz
+20 verbose lock /var/folders/n3/4xxf8_pd5kl1qr4wjgt8p8600000gn/T/npm-99118/1376983201022-0.8765270456206053/tmp.tgz /Users/simonsu/.npm/388a8440-01022-0-8765270456206053-tmp-tgz.lock
+21 silly lockFile 3a52ce78- .
+22 silly lockFile 3a52ce78- .
+23 silly lockFile 388a8440-01022-0-8765270456206053-tmp-tgz /var/folders/n3/4xxf8_pd5kl1qr4wjgt8p8600000gn/T/npm-99118/1376983201022-0.8765270456206053/tmp.tgz
+24 silly lockFile 388a8440-01022-0-8765270456206053-tmp-tgz /var/folders/n3/4xxf8_pd5kl1qr4wjgt8p8600000gn/T/npm-99118/1376983201022-0.8765270456206053/tmp.tgz
+25 verbose tar unpack /var/folders/n3/4xxf8_pd5kl1qr4wjgt8p8600000gn/T/npm-99118/1376983201022-0.8765270456206053/tmp.tgz
+26 silly lockFile f3709223-01022-0-8765270456206053-package /var/folders/n3/4xxf8_pd5kl1qr4wjgt8p8600000gn/T/npm-99118/1376983201022-0.8765270456206053/package
+27 verbose lock /var/folders/n3/4xxf8_pd5kl1qr4wjgt8p8600000gn/T/npm-99118/1376983201022-0.8765270456206053/package /Users/simonsu/.npm/f3709223-01022-0-8765270456206053-package.lock
+28 silly lockFile 388a8440-01022-0-8765270456206053-tmp-tgz /var/folders/n3/4xxf8_pd5kl1qr4wjgt8p8600000gn/T/npm-99118/1376983201022-0.8765270456206053/tmp.tgz
+29 verbose lock /var/folders/n3/4xxf8_pd5kl1qr4wjgt8p8600000gn/T/npm-99118/1376983201022-0.8765270456206053/tmp.tgz /Users/simonsu/.npm/388a8440-01022-0-8765270456206053-tmp-tgz.lock
+30 silly gunzTarPerm modes [ '755', '644' ]
+31 silly gunzTarPerm extractEntry package.json
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm extractEntry index.js
+34 verbose read json /var/folders/n3/4xxf8_pd5kl1qr4wjgt8p8600000gn/T/npm-99118/1376983201022-0.8765270456206053/package/package.json
+35 silly lockFile f3709223-01022-0-8765270456206053-package /var/folders/n3/4xxf8_pd5kl1qr4wjgt8p8600000gn/T/npm-99118/1376983201022-0.8765270456206053/package
+36 silly lockFile f3709223-01022-0-8765270456206053-package /var/folders/n3/4xxf8_pd5kl1qr4wjgt8p8600000gn/T/npm-99118/1376983201022-0.8765270456206053/package
+37 silly lockFile 388a8440-01022-0-8765270456206053-tmp-tgz /var/folders/n3/4xxf8_pd5kl1qr4wjgt8p8600000gn/T/npm-99118/1376983201022-0.8765270456206053/tmp.tgz
+38 silly lockFile 388a8440-01022-0-8765270456206053-tmp-tgz /var/folders/n3/4xxf8_pd5kl1qr4wjgt8p8600000gn/T/npm-99118/1376983201022-0.8765270456206053/tmp.tgz
+39 verbose from cache /var/folders/n3/4xxf8_pd5kl1qr4wjgt8p8600000gn/T/npm-99118/1376983201022-0.8765270456206053/package/package.json
+40 verbose tar pack [ '/Users/simonsu/.npm/google-sitesearch/0.0.1/package.tgz',
+40 verbose tar pack   '/var/folders/n3/4xxf8_pd5kl1qr4wjgt8p8600000gn/T/npm-99118/1376983201022-0.8765270456206053/package' ]
+41 verbose tarball /Users/simonsu/.npm/google-sitesearch/0.0.1/package.tgz
+42 verbose folder /var/folders/n3/4xxf8_pd5kl1qr4wjgt8p8600000gn/T/npm-99118/1376983201022-0.8765270456206053/package
+43 silly lockFile f3709223-01022-0-8765270456206053-package /var/folders/n3/4xxf8_pd5kl1qr4wjgt8p8600000gn/T/npm-99118/1376983201022-0.8765270456206053/package
+44 verbose lock /var/folders/n3/4xxf8_pd5kl1qr4wjgt8p8600000gn/T/npm-99118/1376983201022-0.8765270456206053/package /Users/simonsu/.npm/f3709223-01022-0-8765270456206053-package.lock
+45 silly lockFile f2a49250-gle-sitesearch-0-0-1-package-tgz /Users/simonsu/.npm/google-sitesearch/0.0.1/package.tgz
+46 verbose lock /Users/simonsu/.npm/google-sitesearch/0.0.1/package.tgz /Users/simonsu/.npm/f2a49250-gle-sitesearch-0-0-1-package-tgz.lock
+47 silly lockFile f3709223-01022-0-8765270456206053-package /var/folders/n3/4xxf8_pd5kl1qr4wjgt8p8600000gn/T/npm-99118/1376983201022-0.8765270456206053/package
+48 silly lockFile f3709223-01022-0-8765270456206053-package /var/folders/n3/4xxf8_pd5kl1qr4wjgt8p8600000gn/T/npm-99118/1376983201022-0.8765270456206053/package
+49 silly lockFile f2a49250-gle-sitesearch-0-0-1-package-tgz /Users/simonsu/.npm/google-sitesearch/0.0.1/package.tgz
+50 silly lockFile f2a49250-gle-sitesearch-0-0-1-package-tgz /Users/simonsu/.npm/google-sitesearch/0.0.1/package.tgz
+51 silly lockFile bbab53ba--google-sitesearch-0-0-1-package /Users/simonsu/.npm/google-sitesearch/0.0.1/package
+52 verbose lock /Users/simonsu/.npm/google-sitesearch/0.0.1/package /Users/simonsu/.npm/bbab53ba--google-sitesearch-0-0-1-package.lock
+53 silly lockFile bbab53ba--google-sitesearch-0-0-1-package /Users/simonsu/.npm/google-sitesearch/0.0.1/package
+54 silly lockFile bbab53ba--google-sitesearch-0-0-1-package /Users/simonsu/.npm/google-sitesearch/0.0.1/package
+55 verbose tar unpack /Users/simonsu/.npm/google-sitesearch/0.0.1/package.tgz
+56 silly lockFile bbab53ba--google-sitesearch-0-0-1-package /Users/simonsu/.npm/google-sitesearch/0.0.1/package
+57 verbose lock /Users/simonsu/.npm/google-sitesearch/0.0.1/package /Users/simonsu/.npm/bbab53ba--google-sitesearch-0-0-1-package.lock
+58 silly lockFile f2a49250-gle-sitesearch-0-0-1-package-tgz /Users/simonsu/.npm/google-sitesearch/0.0.1/package.tgz
+59 verbose lock /Users/simonsu/.npm/google-sitesearch/0.0.1/package.tgz /Users/simonsu/.npm/f2a49250-gle-sitesearch-0-0-1-package-tgz.lock
+60 silly gunzTarPerm modes [ '755', '644' ]
+61 silly gunzTarPerm extractEntry package.json
+62 silly gunzTarPerm extractEntry README.md
+63 silly gunzTarPerm extractEntry index.js
+64 verbose read json /Users/simonsu/.npm/google-sitesearch/0.0.1/package/package.json
+65 silly lockFile bbab53ba--google-sitesearch-0-0-1-package /Users/simonsu/.npm/google-sitesearch/0.0.1/package
+66 silly lockFile bbab53ba--google-sitesearch-0-0-1-package /Users/simonsu/.npm/google-sitesearch/0.0.1/package
+67 silly lockFile f2a49250-gle-sitesearch-0-0-1-package-tgz /Users/simonsu/.npm/google-sitesearch/0.0.1/package.tgz
+68 silly lockFile f2a49250-gle-sitesearch-0-0-1-package-tgz /Users/simonsu/.npm/google-sitesearch/0.0.1/package.tgz
+69 verbose from cache /Users/simonsu/.npm/google-sitesearch/0.0.1/package/package.json
+70 verbose chmod /Users/simonsu/.npm/google-sitesearch/0.0.1/package.tgz 644
+71 verbose chown /Users/simonsu/.npm/google-sitesearch/0.0.1/package.tgz [ 501, 20 ]
+72 silly lockFile 3a52ce78- .
+73 silly publish { name: 'google-sitesearch',
+73 silly publish   version: '0.0.1',
+73 silly publish   private: true,
+73 silly publish   main: 'index',
+73 silly publish   dependencies: { request: '~2.27.0' },
+73 silly publish   readme: 'Google SiteSearch\n====\n\n',
+73 silly publish   readmeFilename: 'README.md',
+73 silly publish   description: 'Google SiteSearch ====',
+73 silly publish   _id: 'google-sitesearch@0.0.1',
+73 silly publish   dist: { shasum: '51eddbfc83e295f75588e14c54ce62e94e6fd737' },
+73 silly publish   _from: '.' }
+74 error Error: This package has been marked as private
+74 error Remove the 'private' field from the package.json to publish it.
+74 error     at publish_ (/usr/local/lib/node_modules/npm/lib/publish.js:90:31)
+74 error     at Array.1 (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+74 error     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+74 error     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:14:28)
+74 error     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+74 error     at /usr/local/lib/node_modules/npm/lib/publish.js:59:5
+74 error     at /usr/local/lib/node_modules/npm/lib/cache.js:799:14
+74 error     at process._tickCallback (node.js:415:13)
+75 error If you need help, you may report this log at:
+75 error     <http://github.com/isaacs/npm/issues>
+75 error or email it to:
+75 error     <npm-@googlegroups.com>
+76 error System Darwin 11.4.2
+77 error command "node" "/usr/local/bin/npm" "publish"
+78 error cwd /Users/simonsu/project/google-drive/node_modules/google-sitesearch
+79 error node -v v0.10.10
+80 error npm -v 1.2.25
+81 verbose exit [ 1, true ]

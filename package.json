@@ -1,0 +1,9 @@
+{
+  "name": "google-sitesearch",
+  "version": "0.0.1",
+  "private": true,
+  "main": "index",
+  "dependencies": {
+    "request": "~2.27.0"
+  }
+}
